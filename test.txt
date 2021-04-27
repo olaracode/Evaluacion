@@ -1,0 +1,37 @@
+Prueba 1 (prueba.py)
+Crear un script bash que guarde en un archivo llamado
+"test2.txt" las líneas del archivo "test1.txt" que contengan
+alguna de las siguientes palabras: "GATO", "PERRO", "LORO"
+
+
+Prueba 2 (carpeta.py)
+Crear un script bash que copie los archivos existentes dentro de la carpeta llamada "grupo"
+con más de 30 días de antigüedad en la carpeta "destino".
+
+Tomar en cuenta que la carpeta "destino" podría no existir.
+
+
+Prueba 3 (log.py)
+Crear un script bash que guardar las últimas 100 líneas del archivo "session.log" en un archivo llamado "session_last_100.log", una vez copiadas debe subir el archivo "session_last_100.log" a un servidor remoto, a la ruta /tmp/.
+
+Datos servidor remoto:
+    - Usuario: prueba
+    - Ip: 64.233.190.102.
+
+Ignorar la verificación de hosts keys.
+
+Prueba 4 (dict.py)
+En base al diccionario/hash "animales", crear una lista/array que incluya el nombre de los animales del tipo "mamífero".
+Usando para esto Python o Ruby.
+
+Se tiene una tabla "productos" que guarda el nombre `nombre`,
+fecha de creación del producto `fecha_creacion`
+e identificador universal `upc` de productos varios.
+El resto de la posible información relevante de cada producto es
+guardada en la tabla "info_product", la misma se relaciona con los productos por medio del id de los
+mismos y el campo `id_product`, el tipo de información se diferencia por medio del campo `info_tipo` (color, tamano,
+peso, material, marca, etc), sirviendo el campo `valor` para guardar la información relacionada al tipo
+(amarillo, 10cm, 10gr, acero, sony, etc).
+
+En base a esto, seleccionar el id y nombre de los productos con nombre similar a
+"telefono" con fecha de creación menor a 2 días que no tengan información del tipo "color" en la tabla info_product.
